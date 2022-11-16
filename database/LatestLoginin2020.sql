@@ -1,4 +1,3 @@
-/* The Latest Login in 2020 */
 
 select distinct user_id,
 max(time_stamp) as last_stamp
