@@ -1,5 +1,3 @@
-//Employees With Missing Information//
-
 (SELECT E.employee_id
 FROM Employees E
 LEFT JOIN Salaries S on E.employee_id = S.employee_id
