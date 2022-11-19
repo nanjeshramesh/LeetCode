@@ -1,3 +1,4 @@
+//reformat-dept
 Reformat Department Tableselect id,
 sum(if(month='Jan',revenue,NULL)) as Jan_Revenue,
 sum(if(month='Feb',revenue,NULL)) as Feb_Revenue,
